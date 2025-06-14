@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
+// Converted from next.config.ts to next.config.js for Vercel compatibility
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  // config options here
   eslint: {
     ignoreDuringBuilds: false,
   },
@@ -11,7 +11,6 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "assets.myntassets.com",
-
         port: "",
         pathname: "/**",
       },
@@ -19,4 +18,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig; 
